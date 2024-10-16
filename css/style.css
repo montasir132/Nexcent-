@@ -1,0 +1,489 @@
+ /* font*/
+ @import url('../font/Roboto-Black.ttf');@import url('../font/Roboto-Bold.ttf'); @import url('../font/Roboto-Medium.ttf'); @import url('../font/Roboto-Regular.ttf');
+
+ /*common start*/
+:root{
+    /* color  */
+    --black    : #263238;
+    --white    : #ffffff;
+    --D_Grey   : #4D4D4D;   
+    --Grey     : #717171;
+    --L_Grey   : #89939E;
+    --Grey-blue: #ABBED1;    
+    --Silver   : #F5F7FA;
+    --Primary  : #4CAF4F;
+    --Info     : #2194f3;
+ 
+    
+    --rob:"Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--rob);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Grey);
+}
+.co_padding{
+    padding-bottom: 40px;
+}
+/*common end*/
+/* header start  */
+header{
+    padding: 30px;
+    background-color: var(--Silver);
+}
+.c_nav{
+    background-color: var(--Silver);
+
+}
+.nav_img{
+    width: 155px;
+
+    
+}
+.nav_img img{
+    
+
+}
+.menu{
+    margin-left: 145px;
+}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+    margin: 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Grey)!important;
+    Line-height: 24px;
+}
+
+.btn_Login{
+    width: 80px;
+    height: 40px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: var(--Primary) !important;
+    
+}
+.btn_Login:active {
+    background-color: var(--white) !important;
+    color: var(--Primary) !important;
+    border: 1px solid var(--Primary) !important;
+}
+.btn_Login:hover{
+    background-color: var(--Silver);
+    border: 1px solid var(--Grey) !important;
+    color: var(--Primary) !important;
+}
+.btn_cm{
+    background-color: var(--Primary);
+    border-radius: 6px;
+    font-family: var(--rob);
+    font-size: 16px;
+    color: var(--white);
+}
+.btn_cm:active {
+    background-color: var(--Primary) !important;
+    color: var(--white) !important;
+    border: none !important;
+}
+.btn_cm:focus {
+    border: 2px solid !important;
+}
+.btn_cm:hover {
+    background-color: var(--Primary);
+    color: var(--white);
+}
+.btn_Signup{
+    margin-left: 15px;
+    padding: 10px 15px;
+    width: 90px;
+    height: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* header end  */
+/* slider start */
+.slider{
+    padding: 100px 0;
+    background-color: var(--Silver);
+}
+.c_ind {
+        bottom: -50px;
+    }
+    
+.c_ind [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--Primary);
+
+}
+.s_text{}
+.s_text h1{
+    padding-bottom: 15px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: var(--D_Grey);
+
+}
+.s_text h1 span{
+    color: var(--Primary);
+}
+.s_text p{
+    
+}
+.s_text a{
+    margin-top: 30px;
+}
+.btn_register {
+    width: 128px;
+    height: 52px;
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+
+.s_img{
+    
+
+}
+.s_img img{}
+/* slider end  */
+ /* s_client start */
+ .client{
+    padding-top: 40px;
+    background-color: var(--white);
+ }
+ .c_text{}
+ .c_h1{
+    font-size: 36px;
+    font-weight: 600;  
+    color: var(--D_Grey);
+    line-height: 44px;
+
+ }
+ .c_p{
+    line-height: 24px;
+    
+ }
+
+ .c_imge{
+    margin: 40px;
+ }
+ .c_img{
+    margin-left:136px;
+
+ }
+ /* s_client end */
+ /* s_system start  */
+ .s_system{
+
+
+ }
+ .system{}
+ .system h1{
+    margin:0 20px 8px;
+ }
+ .system p{
+
+ }
+ .sy_single{
+    margin: 10px ;
+    width: 299px;
+    height: 260px;
+    padding:24px 37px;
+    border-radius: 8px;
+    background-color: var(--Silver);
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+
+
+ }
+ .sy_img{
+    width: 65px;
+    height: 56px;
+
+
+ }
+ .sy_img img{}
+ .sy_h2{
+    padding-bottom: 8px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--D_Grey);   
+ }
+ .sy_p{
+    width: 252px;
+    height: 60px;
+
+ }
+ /* s_system end  */
+/* sp_Pixelgrade start */
+.sp_pixelgrad{
+    
+}
+.sp_img{
+    
+}
+.sp_img img{}
+.sp_text {
+    margin-top: 50px;
+}
+.sp_h2 {
+    margin: 0 50px 16px 0;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--D_Grey);
+    line-height: 44px;
+}
+.sp_p{
+    margin: 0 100px 0 0;
+}
+.btn_learn{
+    margin-top: 30px;
+    width: 151px;
+    height:52px;
+    padding: 14px 32px;
+    border-radius: 4px;   
+}
+/* sp_Pixelgrade end  */
+/* se_helping start  */
+.se_helping{
+    padding-bottom: 25px;
+    background-color: var(--Silver);
+}
+.he_text{
+     padding: 85px 0;
+     
+}
+.he_h2{
+    margin: 0 140px 8px 0;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--D_Grey);
+    line-height: 44px;   
+}
+.he_h2 span{
+    color: var(--Primary);
+}
+.he_p{
+    color: var(--black);
+}
+.he_icontext{
+    padding: 65px 0;
+}
+.he_icon{
+    
+}
+.he_icon img{
+    margin-right: 16px;
+}
+.he_ctext {
+    padding: 0 60px 0 0px;
+}
+.he_ctext h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--D_Grey);
+    line-height: 36px;
+    
+}
+.he_ctext p{}
+/* se_helping end  */
+/* f_design start  */
+.f_design{
+    padding-top:40px ;
+}
+
+/* f_design end  */
+/* s_tim start */
+.s_tim{
+    background-color: var(--Silver);
+}
+.tim_img{
+
+    border-radius: 8px;
+}
+.tim_img img{
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+}
+.tim_content{
+    padding: 30px 0;
+}
+.tim_p {
+    padding-right: 125px;
+}
+.tim_h5{
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--Primary);    
+}
+.tim_p1{
+    line-height: 24px;
+    color: var(--L_Grey);
+}
+.tim_img1{
+    margin-top: 32px;
+
+    
+}
+.tim_img1 img{
+    margin: 0 20px;
+}
+.tim_all{
+    margin-left: 30px;
+    width:223px;
+    height:44px;
+    padding: 8px;  
+}
+.tim_all i{
+    margin: 5px 0 0 2px;
+    color: var(--Primary);
+}
+/* s_tim end  */
+/* s_marketing start */
+.s_marketing{
+    padding-top: 40px;
+ }
+ 
+
+ .marketing_text{
+    padding-bottom: 30px;
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    background-color: var(--Silver);
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+
+ }
+ .marketing {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.marketing p {
+    font-size: 16px;
+    color: var(--D_Grey);
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.card img {
+    
+    border-radius: 8px;
+    
+}
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+.card-body h5 {
+font-size: 19px;
+font-weight: 600;
+color: var(--Grey);
+line-height: 28px;
+
+
+}
+.card-body a {
+    color: var(--Primary);
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 28px;
+}
+.card-body a:hover {
+    text-decoration: underline;
+}
+
+.btn_read:active {
+    background-color: var(--white) !important;
+    color: var(--Primary) !important;
+    border: 1px solid var(--Primary) !important;
+}
+.btn_read:hover{
+    background-color: var(--Silver);
+    border: 1px solid var(--Grey) !important;
+    color: var(--Primary) !important;
+}
+/* s_marketing end  */
+/* footer_top start  */
+.footer_top1{
+    padding-top: 100px;
+}
+.footer_top{
+     padding: 32px 0px 32px 0px;
+    background-color: var(--Silver);
+
+}
+.ft_h1{
+    margin: 32px 0;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: var(--black);    
+}
+.btn_ft{
+    width: 178px;
+    height:52px;
+    padding: 14px 32px ;
+    border-radius: 4px ;    
+}
+/* footer_top end  */
+/* footer start  */
+.footer {
+    padding: 40px 0;
+    background-color: var(--black);
+    color: var(--white);
+}
+.footer a {
+    color: var(--Silver);
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+}
+.footer .email-input {
+    background-color: #37474f;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    /* background-color: #D9DBE1; */
+    ;
+}
+.footer .email-input::placeholder {
+    color: #d1d5db;
+}
+.footer .email-button {
+    background-color: #37474f;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #d1d5db;
+    cursor: pointer;
+}
+/* footer end */
+
