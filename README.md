@@ -1,2 +1,2 @@
 # Nexcent-
-full responsive website
+https://montasir132.github.io/Nexcent-/
