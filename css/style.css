@@ -1,7 +1,7 @@
  /* font*/
  @import url('../font/Roboto-Black.ttf');@import url('../font/Roboto-Bold.ttf'); @import url('../font/Roboto-Medium.ttf'); @import url('../font/Roboto-Regular.ttf');
 
- /*common start*/
+ /*common start*/ 
 :root{
     /* color  */
     --black    : #263238;
@@ -21,7 +21,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     font-family: var(--rob);
     font-size: 16px;
@@ -486,4 +485,37 @@ line-height: 28px;
     cursor: pointer;
 }
 /* footer end */
-
+/* Preloader start */
+#preloader{
+    position: fixed;
+    background:#000000 url(../images/ezgif-2-9d94781b522f.gif) no-repeat center center ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+/* To-Top */
+.to-top {
+    background: var(--Grey-blue);
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:var(--black);
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }

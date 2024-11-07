@@ -10,7 +10,6 @@ signinBtn.addEventListener("click", () => {
   mainContainer.classList.toggle("change");
 });
 
-
 /*================= jq ==================*/
 $(document).ready(function(){
 

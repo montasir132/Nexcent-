@@ -188,8 +188,15 @@ footer{
     margin-top: 20px;
 }
 /* footer end  */
- 
- 
+/* to-top  */
+.to-top {
+    right: 5px;
+}
+.to-top.active {
+    bottom: 8px;
+
+}
+
  }
 
 /* Small devices (landscape phones, 576px and up)*/
